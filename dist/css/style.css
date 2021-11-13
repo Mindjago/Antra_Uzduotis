@@ -1,0 +1,26 @@
+h1,h2 {
+    color: thistle;
+    text-align-last: center;
+    width: 700px;
+}
+.div2 {
+    display: inline-table;
+    background-color: blue;
+    width: 700px;
+}
+    .p1 {
+    display: inline-table;
+    color: white;
+    text-align: var(.texth);
+}
+img {
+    width: 200px;
+    
+}
+p {
+    width: 5cm;
+    text-align: start;
+}
+.texth {
+    color: tomato;
+    }
