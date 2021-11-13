@@ -1,26 +1,77 @@
-h1,h2 {
+.head,.bodyh {
     color: thistle;
     text-align-last: center;
     width: 700px;
 }
-.div2 {
-    display: inline-table;
+ .hrow {
     background-color: blue;
-    width: 700px;
+    width: 700px;  
 }
-    .p1 {
-    display: inline-table;
+.blue1 {
     color: white;
-    text-align: var(.texth);
+    display: inline-block;
+    text-align: left;
+    width: 225px;      
+}
+.blue2 {
+    color: white;    
+    display: inline-block;
+    text-align: center;
+    width: 225px;
+    font-weight: bold;
+}
+.blue3 {
+    color: white;    
+    display: inline-block;
+    text-align: right;
+    width: 225px;  
 }
 img {
     width: 200px;
-    
+    display: block;
+    }
+.coupon {
+    height: 100px;
+    width: 200px;
+    border: 2px, dotted, black;
+    display: block;
+    outline-style: dotted;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    outline-color: black;
+    }
+
+.box1 {
+    display: inline-block;
+    width: 225px;
+    vertical-align: top;
 }
-p {
-    width: 5cm;
+.box2 {
+    display: inline-block;
+    width: 225px;
+    vertical-align: top;
+}
+.box3 {
+    display: inline-block;
+    width: 225px;
+    vertical-align: top;
+}
+.text1 {
     text-align: start;
+    color: red;
+    font-weight: bold;
 }
-.texth {
-    color: tomato;
+.foot1 {
+    display: inline-block;
+    color: gray;
+    font-size: 10px;
+    text-align: left;
+    width: 350px;
+}
+.name {
+    display: inline-block;
+    text-align: right;
+    width: 220px;
+    font-weight: bold;
     }
